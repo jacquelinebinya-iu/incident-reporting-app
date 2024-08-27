@@ -1,0 +1,12 @@
+.idea
+.config
+node_modules/*
+node_modules/**/*
+config/*
+dist/*
+dist/**/*
+scripts/*
+node_modules/
+node_modules
+dist
+dist/

@@ -1,0 +1,53 @@
+{
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "extends": ["google", "plugin:prettier/recommended"],
+    "plugins": ["simple-import-sort"],
+    "rules": {
+      "max-len": ["error", {
+        "code": 100,
+        "ignoreComments": true,
+        "ignoreUrls": true
+      }],
+      "require-await": "error",
+      "no-console": ["error", {}],
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto",
+          "singleQuote": true,
+          "trailingComma": "es5",
+          "printWidth": 100,
+          "ignoreComments": true,
+          "jsxSingleQuote": false,
+          "jsxBracketSameLine": true
+        }
+      ],
+      "object-curly-spacing": ["error", "always"],
+      "require-jsdoc": [
+        "error",
+        {
+          "require": {
+            "FunctionDeclaration": false,
+            "MethodDefinition": false,
+            "ClassDeclaration": false,
+            "ArrowFunctionExpression": false,
+            "FunctionExpression": false
+          }
+        }
+      ],
+      "new-cap": [
+        "error",
+        { "capIsNewExceptions": ["Schema", "Router", "Buffer", "ObjectId"] }
+      ],
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error"
+    }
+  }
+  
