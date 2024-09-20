@@ -3,9 +3,9 @@
 ## Project Setup
 
 ### Requirements
-- **Node.js**: v20.x.x
-- **npm**: v7.x.x or higher
-- **PostgreSQL**: Ensure you have PostgreSQL installed and running.
+- [NPM](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac): v7.x.x or higher
+- [Node.js](https://nodejs.org/en): v20.x.x
+- [PostgreSQL](https://www.postgresql.org/): Ensure you have PostgreSQL installed and running.
 
 ### 1. Clone the Repository
 ```bash
