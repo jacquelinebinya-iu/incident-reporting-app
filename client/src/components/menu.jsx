@@ -57,7 +57,7 @@ export const Menu = () => {
       <Flex display={['flex', 'flex', 'none', 'none']} w="100%" alignItems="center">
         <Flex my="0.5rem" p="0.5rem">
           <ChakraLink as={ReactRouterLink} to="/">
-            <img src={deskLogo} alt="A logo" />
+            <img src={deskLogo} alt="A logo" width="20%" height="auto" />
           </ChakraLink>
         </Flex>
 
@@ -87,7 +87,7 @@ export const Menu = () => {
           display={display}>
           <Flex w="100%" my="0.5rem" p="0.5rem" justifyContent="space-between" alignItems={'center'}>
             <ChakraLink as={ReactRouterLink} to="/">
-              <img src={deskLogo} alt="A logo" />
+              <img src={deskLogo} alt="A logo" width="20%" />
             </ChakraLink>
 
             <IconButton
